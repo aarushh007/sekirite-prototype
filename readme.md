@@ -64,12 +64,3 @@ The purpose of this application is to provide a lightweight web platform where u
 * Reports are displayed dynamically on the webpage.
 * Console logs in the terminal provide server-side feedback.
 
-flowchart TD
-    A[User opens web app] --> B[Frontend (HTML/CSS/JS)]
-    B --> C[User submits report form]
-    C --> D[Flask Backend (app.py)]
-    D --> E[Firebase Realtime Database]
-    E --> D
-    D --> F[Flask-SocketIO]
-    F --> G[Frontend Updates in Real-Time]
-    G --> H[Users see reports displayed on webpage]

@@ -2,6 +2,5 @@ flask
 flask-socketio
 psycopg2-binary
 eventlet
-os
 firebase
 firebase-admin

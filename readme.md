@@ -34,6 +34,7 @@ The purpose of this application is to provide a lightweight web platform where u
 
    * Go to [Firebase Console](https://console.firebase.google.com/) and create a new project (or use an existing one).
    * Enable **Realtime Database** and set the rules appropriately (for development you may allow read/write access, but in production configure proper security rules).
+   * Go to project settings and create a web app
    * Copy your Firebase configuration (API key, database URL, etc.).
    * Update the configuration inside `models/report_model.py` with your Firebase project details.
 

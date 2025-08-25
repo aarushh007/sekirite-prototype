@@ -13,7 +13,7 @@ The purpose of this application is to provide a lightweight web platform where u
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/sekirite-prototype.git
+   git clone https://github.com/aarushh007/sekirite-prototype.git
    cd sekirite-prototype
    ```
 
